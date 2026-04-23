@@ -1,6 +1,7 @@
 import AuthForm from "./components/AuthForm";
 import { Inter } from "next/font/google";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -20,11 +21,11 @@ export default function Home() {
       <div className="z-10 w-full max-w-md">
         <div className="text-center mb-8">
           {/* <h1 className="text-5xl font-bold text-white mb-2 tracking-tight"> */}
-          <h1 className="text-5xl font-semibold text-white mb-2 tracking-tight">
-            MAUSAM
+          <h1 className="text-5xl font-bold text-white font-[Poppins] tracking-wider">
+            GLOBAL CAST
           </h1>
-          {/* <p className="text-white/120 font-bold text-lg"> */}
-          <p className="text-white/80 font-medium text-lg">
+
+          <p className="text-white text-xl mt-2 font-[Inter] font-semibold">
             Weather Intelligence
           </p>
         </div>
